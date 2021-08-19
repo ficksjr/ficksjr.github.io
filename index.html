@@ -12,11 +12,16 @@
             margin: 30pt;
             font-family:sans-serif ;
         }
-        .listaImagem *{
+        #listaImagem1 *{
             display: flexbox;
             vertical-align: middle;
+            align-items: flex-start;
         }
-
+        #listaImagem2 *{
+            display: flexbox;
+            vertical-align: middle;
+            align-items: flex-start;
+        }
     </style>
 </head>
 <body>
@@ -29,11 +34,19 @@
         <li>Curso de <strong>Análise de Dados</strong> pela Digital House, e</li> 
         <li> Curso de <strong>Java</strong> Web Fullstack pela Alfamidia.</li> 
     </ul>
-    <h3>Siga-me nas minhas redes sociais:</h3>
-    <div class="listaImagem">
-        <a href="https://www.linkedin.com/in/ficksjr/" rel="external" style="margin-left: 20px;"><img src="images/linkedinLogo29.png" alt="ícone do Linkedin">Linkedin
-    </div>
-    <!-- <p>Github: <a href="https://github.com/ficksjr" rel="external" target="_blank">https://github.com/ficksjr</a></p> -->
+    
+    <p>Siga-me nas minhas redes sociais:</p>
+    
+    <ul>
+        <div id="listaImagem1">
+            <a href="https://www.linkedin.com/in/ficksjr/" rel="external" target="_blank">
+            <img src="images/linkedinLogo29.png" alt="ícone do Linkedin">https://www.linkedin.com/in/ficksjr/
+                <br>
+                <br>
+            <a href="https://github.com/ficksjr" rel="external" target="_blank">
+            <img src="images/githubLogo29.png" alt="ícone do Github">https://github.com/ficksjr
+        </div>
+    </ul>
 
 </body>
 </html>
