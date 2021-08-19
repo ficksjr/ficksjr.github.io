@@ -7,28 +7,39 @@
     <title>Ficks Jr Home Page</title>
     <link rel="shortcut icon" href="images/gearIcon.png" type="image/x-icon">
     <style>
-        * {
-            text-align: justify;
-        }
+
         h1 {
             text-align: center;
+            display: flexbox;
+            font-size:36pt;
+            font-size-adjust: initial;
         }
         h2 {
             text-align: center;
+            display: flexbox;
         }
-        #foto {
-            position: relative;
-            margin: 0;
-            margin-left: 20%;
-            margin-right: -50%; 
+        p {
+            text-align: justify;
+            display: flexbox;
+        }
+        .box {
+            display: flex;
+            justify-content: center;
+        }
+        .box div {
+            width: 50px;
+            height: 50px;
         }
     </style>
 </head>
 <body>
     <h1>Minhas Redes Sociais</h1>
     <h2>Quem sou eu?</h2>
-    <img src="images/foto.jpg" alt="minha foto" id="foto">
+    <div class="box"><img src="images/foto.jpg" alt="minha foto" id="foto" width="20%"></div>
     <p>Meu nome é <strong>Paulo Renato Ficks Júnior</strong>, sou Engenheiro Civil formado pela UFRGS e estou cursando minha segunda graduação, agora tecnológica, em Análise e Desenvolvimento de Sistemas, pela Universidade Estácio de Sá.</p>
-    <p>Atualmente, faço dois cursos complementares: Curso de <strong>Análise de Dados</strong> pela Digital House e Curso de <strong>Java</strong> Web Fullstack pela Alfamidia, os dois com previsão de término ainda em 2021 </p>
+    <p>Atualmente, faço dois cursos complementares: <ul><li>Curso de <strong>Análise de Dados</strong> pela Digital House, e</li> <li> Curso de <strong>Java</strong> Web Fullstack pela Alfamidia.</li> </ul></p>
+    <h3>Siga-me nas minhas redes sociais:</h3>
+    <p>Linkedin: <a href=""></a></p>
+
 </body>
 </html>
